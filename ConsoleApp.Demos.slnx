@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="ConsoleApp.Operators/ConsoleApp.Operators.csproj" />
   <Project Path="ConsoleApp.OutputDemo/ConsoleApp.OutputDemo.csproj" />
+  <Project Path="ConsoleApp.SampleCalculator/ConsoleApp.SampleCalculator.csproj" Id="8aadfda5-8f36-43f0-b042-51977c83c916" />
   <Project Path="ConsoleApp.UserInputDemo/ConsoleApp.UserInputDemo.csproj" />
   <Project Path="ConsoleApp.VariablesDemo/ConsoleApp.VariablesDemo.csproj" />
 </Solution>
