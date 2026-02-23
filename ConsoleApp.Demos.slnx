@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="ConsoleApp.loops/ConsoleApp.loops.csproj" Id="5ff76cd5-1d27-432f-8bcb-15ff427842d2" />
   <Project Path="ConsoleApp.Operators/ConsoleApp.Operators.csproj" />
   <Project Path="ConsoleApp.OutputDemo/ConsoleApp.OutputDemo.csproj" />
   <Project Path="ConsoleApp.SampleCalculator/ConsoleApp.SampleCalculator.csproj" Id="8aadfda5-8f36-43f0-b042-51977c83c916" />
