@@ -17,7 +17,7 @@ int count = 0;
 while (count < 10)
 {
     Console.WriteLine($"Hello world! - {count}");
-    count++;
+    count += 2;
 }
 
 // This will keep asking the user to enter numbers until they enter -1, and it will sum up all the numbers entered (except -1) and print the total sum at the end.
@@ -25,15 +25,26 @@ int sum = 0;
 int num = 0;
 while (num != -1)
 {
-    Console.Write("Please enter numbers to be summed up (enter 0 to stop): "); 
+    Console.Write("Please enter numbers to be summed up (enter -1 to stop): "); 
     num = Convert.ToInt32(Console.ReadLine());
-    if(num != -1)
+    if (num != -1)
     {
         sum += num;
     }
 }
-
 Console.WriteLine($"The total sum is: {sum}");
 
-Console.WriteLine("--------- do.. while loop --------");
 
+
+Console.WriteLine("--------- do.. while loop --------");
+sum = 0;
+num = 0;
+do
+{
+    Console.Write("Please enter numbers to be summed up (enter 0 to stop): ");
+    num = Convert.ToInt32(Console.ReadLine());
+    {
+        sum += num;
+    }
+} while (num != 0);
+Console.WriteLine($"The total sum is: {sum}");
