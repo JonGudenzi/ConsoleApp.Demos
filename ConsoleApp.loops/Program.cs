@@ -1,6 +1,12 @@
 ﻿
 
-Console.WriteLine("--------- for loop --------");
+Console.WriteLine("--------- simple for loop --------");
+// Counter controlled loop
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine($"Hello, World - {i}");
+}
+
 
 Console.WriteLine("How many times do you want to print 'Hello world!'? ");
 
