@@ -1,12 +1,9 @@
-﻿
-
-Console.WriteLine("--------- simple for loop --------");
+﻿Console.WriteLine("--------- simple for loop --------");
 // Counter controlled loop
 for (int i = 0; i < 10; i++)
 {
     Console.WriteLine($"Hello, World - {i}");
 }
-
 
 Console.WriteLine("How many times do you want to print 'Hello world!'? ");
 
@@ -39,8 +36,6 @@ while (num != -1)
     }
 }
 Console.WriteLine($"The total sum is: {sum}");
-
-
 
 Console.WriteLine("--------- do.. while loop --------");
 sum = 0;
