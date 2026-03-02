@@ -55,22 +55,24 @@ while (choice != -1)
             default:
                 throw new Exception("Invalid Menu Item Selected.");
         }
+
+        //Print output
+        Console.WriteLine($"The answer is: {answer}");
     }
     catch (DivideByZeroException)
     {
         Console.WriteLine("Cannot divide by zero");
-        Console.WriteLine("Press Enter to continue");
-        Console.ReadLine();
-        Console.Clear();
-
     }
     catch (Exception ex)
     {
         Console.WriteLine($"Error: {ex.Message}");
-        Console.WriteLine("Press any key to try again.");
+        continue;
+    }
+    finally
+    {
+        Console.WriteLine("Press Enter to continue.");
         Console.ReadLine();
         Console.Clear();
-        continue;
     }
 }
 Console.WriteLine(" ------- Thank you for using the simple calculator ------- ");
