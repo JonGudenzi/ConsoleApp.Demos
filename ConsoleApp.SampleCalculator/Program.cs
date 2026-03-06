@@ -1,7 +1,7 @@
 ﻿//Variable Declarations
 int choice = 0;
-int num1 = 0;
-int num2 = 0;
+int num1, num2 = 0;
+
 
 // Show calulator options / Show menu
 while (choice != -1)

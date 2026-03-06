@@ -4,6 +4,7 @@
   <Project Path="ConsoleApp.Operators/ConsoleApp.Operators.csproj" />
   <Project Path="ConsoleApp.OutputDemo/ConsoleApp.OutputDemo.csproj" />
   <Project Path="ConsoleApp.SampleCalculator/ConsoleApp.SampleCalculator.csproj" Id="8aadfda5-8f36-43f0-b042-51977c83c916" />
+  <Project Path="ConsoleApp.StringManipulation/ConsoleApp.StringManipulation.csproj" Id="a2cf3d56-d162-444a-8a6c-34287faa376c" />
   <Project Path="ConsoleApp.UserInputDemo/ConsoleApp.UserInputDemo.csproj" />
   <Project Path="ConsoleApp.VariablesDemo/ConsoleApp.VariablesDemo.csproj" />
 </Solution>
