@@ -49,7 +49,20 @@ string newString2 = String.Format("Literal string {0} {1}", s1, s1);
 //Null or empty check
 // find the length of a string
 Console.WriteLine($"Length of {nameof(s1)} has a length of {s1.Length}");
+//Console.WriteLine($"Length of {nameof(s4)} has a length of {s4.Length}"); will cause null exception
+Console.WriteLine($"Length of {nameof(s6)} has a length of {s6.Length}");
+Console.WriteLine($"Length of {nameof(s5)} has a length of {s5.Length}");
 
+//if (string.IsNullOrEmpty(s4) == false)
+if (!string.IsNullOrEmpty(s4))
+{
+    Console.WriteLine($"Length of {nameof(s4)} has a length of {s4.Length}");
+}
+
+if(string.IsNullOrEmpty(s5) == false)
+{
+    Console.WriteLine($"{nameof(s5)} has a length of {s5.Length}");
+}
 
 // Substring
 
