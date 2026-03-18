@@ -65,16 +65,31 @@ if(string.IsNullOrEmpty(s5) == false)
 }
 
 // Substring
-
-
-// Null or empty check
+string subString = s1.Substring(5);
+Console.WriteLine($"{nameof(subString)} : {subString}");
+subString = s1.Substring(5, 6);
+Console.WriteLine($"{nameof(subString)} : {subString}");
 
 //Splitting strings
+var splitString = s1.Split(" ");
+for (int i = 0; i < splitString.Length; i++)
+{
+    Console.WriteLine($"splitString[{i}] : {splitString[i]}");
+}
 
 // Replace
+string replacements1 = s1.Replace("s", "v");
+Console.WriteLine($"{nameof(replacements1)} : {replacements1}");
+string replacements2 = s1.Replace("string", "chicken");
+Console.WriteLine($"{nameof(replacements2)} : {replacements2}");
 
 // Convert to string
+string salary = 100000.02.ToString();
+int value = 548716;
+string strValue = value.ToString();
+bool chosen = true;
+chosen.ToString();
 
 // Changing Formatting
-
-// String comparison
+Console.WriteLine($"{nameof(salary)} : {salary:C}");
+Console.WriteLine(nameof(salary) +  ": " + value.ToString("C"));
